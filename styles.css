@@ -38,7 +38,7 @@ body {
   text-shadow: 0 0 10px #d80404;
 }
 #ui .love_word {
-  color: #ff0000;
+  color: #FFE045;
   font-size: 1.4rem;
   transform: translateY(-100%) rotateZ(-30deg);
   font-family: "Lucida Console", "Courier New", monospace;
