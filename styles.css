@@ -1,7 +1,47 @@
-#btn-make {
-  bottom: 200px;
-  right: 30px;
-  background-color: rgba(0, 0, 0, 0.3);
+html,
+body{
+    margin:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background:#020617;
+}
+
+body{
+    background:
+        radial-gradient(circle at center,
+        #0f172a 0%,
+        #020617 60%,
+        #000000 100%);
+}
+
+svg{
+    width:100%;
+    height:100%;
+    cursor:pointer;
+
+  filter: drop-shadow(0 0 8px rgba(0,255,255,.5));
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+
+    background:
+      radial-gradient(
+        circle at center,
+        rgba(0,255,255,.08),
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 30% 20%,
+        rgba(255,0,255,.08),
+        transparent 40%
+      );
+
+    animation:pulse 5s ease-in-out infinite;
 }
 .div_btn {
   position: fixed;
