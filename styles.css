@@ -43,6 +43,7 @@ body::before{
 
     animation:pulse 5s ease-in-out infinite;
 }
+}
 .div_btn {
   position: fixed;
   cursor: pointer;
@@ -75,13 +76,13 @@ body {
 #ui .love:last-child .love_word {
   color: #fff;
   font-size: 2rem;
-  text-shadow: 0 0 10px #fe0e;
+  text-shadow: 0 0 10px #d80404;
 }
 #ui .love_word {
-  color: #fe0e;
+  color: #ff0000;
   font-size: 1.4rem;
   transform: translateY(-100%) rotateZ(-30deg);
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Dosis", sans-serif;
   text-shadow: 0 0 10px #fff;
   letter-spacing: 2px;
 }
